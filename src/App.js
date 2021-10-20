@@ -38,6 +38,7 @@ export default function App() {
 
   return (
     <div className = "App">
+      { renderBackground() }
         <div className = "leftRect">
           <div className="square">
             <div onClick={showBlack}>
@@ -55,9 +56,9 @@ export default function App() {
             </div>
           </div>
         </div> 
-      <div className = "blackColor">
-            { renderBackground() }
-      </div>
+      {/* <div className = "blackColor">
+            
+      </div> */}
     </div>
   )
 
