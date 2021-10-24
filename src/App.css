@@ -1,70 +1,164 @@
 .App {
-  margin: 0;
+  background: rgb(248, 241, 232);
+  height: 100%;
+  width: 100%;
+  
 }
 
-.leftRect {
+*{
+  font-family: sans-serif;
+}
+
+
+/*Sidebar styling*/
+
+.navbar {
+  width: 100vw;
+  background-color: rgb(206, 192, 164);
+  height: 80px;
+  display:flex;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu{
+  background-color: rgb(206, 192, 164);
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover{
+  background-color: rgb(214, 206, 196);;
+}
+
+.nav-menu-items{
+  width: 100%;
+}
+
+.navbar-toggle{
+  background-color: rgb(206, 192, 164);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: auto;
+}
+
+span{
+  margin-left: 16px;
+}
+
+/*Home page styling*/
+.Circle {
+  align-items: center;
+  align-content: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: black;
+}
+
+.Homepage h1{
+  font-family: "Monaco",monospace;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.profileimg {
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.Title h1, h2, p {
+  font-family: "Monaco",monospace;
+  text-align: center;
+  align-content: center;
+}
+
+.WorkExperience h4, h5, h6{
+  padding-left: 20px;
+}
+
+/*Hobbies*/
+.Hobbies{
+  display: flex;
+}
+
+.container1 {
+  width: 400px;
+  height: 400px;
+}
+.container2 {
+  width: 400px;
+  height: 400px;
+}
+.container3 {
+  width: 400px;
+  height: 400px;
+}
+.container4 {
+  width: 400px;
+  height: 400px;
+}
+.container5 {
+  width: 400px;
+  height: 400px;
+}
+
+
+/*Contactme*/
+.Container{
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 100vw;
+}
+
+.Contactme{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  vertical-align: left;
-  background-color: rgb(233, 211, 182);
-  opacity: 90%;
-  width: 300px;
-  height: 100vh;
-  margin: 0px;
   text-align: center;
 }
 
-.blackColor{
-  display: flex;
-  justify-content: right;
-  background-color: black;
-  /* width: 100vh;
-  height: 100vh;
-  margin: 0px;
-  justify-content: space-between; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.redColor{
-  display: flex;
-  justify-content: right;
-  background-color: red;
-  /* width: 100vh;
-  height: 100vh;
-  margin: 0px; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.blueColor{
-  display: flex;
-  justify-content: right;
-  background-color: blue;
-  /* width: 100vh;
-  height: 100vh;
-  margin: 0px; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.square {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  vertical-align: center;
-  width: 275px;
-  height: 50px;
-  outline: 2px solid;
-  outline-color: rgb(233, 211, 182); 
+.Contactme text{
+  padding-left: 10px; 
 }
