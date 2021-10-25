@@ -22,7 +22,7 @@ function App (){
               <Redirect to="/Home"/>
             </Route>
             <Route path='/Home' component={Home} />
-            <Route path='/Hobbies' component={Hobbies} />
+            {/* <Route path='/Hobbies' component={Hobbies} /> */}
             <Route path='/Contactme' component={Contactme} />
           </Switch>
         </Router>

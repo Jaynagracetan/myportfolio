@@ -11,12 +11,12 @@ export const Sidebardata = [
         icon: <AiIcons.AiFillHome />,
         cName: "nav-text"
     }, 
-    {
-        title: "Hobbies",
-        path: "/Hobbies",
-        icon: <IoIcons.IoIosBody />,
-        cName: "nav-text"
-    }, 
+    // {
+    //     title: "Hobbies",
+    //     path: "/Hobbies",
+    //     icon: <IoIcons.IoIosBody />,
+    //     cName: "nav-text"
+    // }, 
     {
         title: "Contact me",
         path: "/Contactme",
