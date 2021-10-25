@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.c5f16c18.chunk.css",
+    "main.js": "/myportfolio/static/js/main.4a55dc85.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.4a55dc85.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.fbd447bc.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.fbd447bc.js.map",
+    "static/js/2.928284db.chunk.js": "/myportfolio/static/js/2.928284db.chunk.js",
+    "static/js/2.928284db.chunk.js.map": "/myportfolio/static/js/2.928284db.chunk.js.map",
+    "static/js/3.5da5e1be.chunk.js": "/myportfolio/static/js/3.5da5e1be.chunk.js",
+    "static/js/3.5da5e1be.chunk.js.map": "/myportfolio/static/js/3.5da5e1be.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/main.c5f16c18.chunk.css.map": "/myportfolio/static/css/main.c5f16c18.chunk.css.map",
+    "static/js/2.928284db.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.928284db.chunk.js.LICENSE.txt",
+    "static/media/drawing.a71bcc03.jpg": "/myportfolio/static/media/drawing.a71bcc03.jpg",
+    "static/media/netflix.2991b384.jpg": "/myportfolio/static/media/netflix.2991b384.jpg",
+    "static/media/profilepict.9efbd38b.JPG": "/myportfolio/static/media/profilepict.9efbd38b.JPG",
+    "static/media/reading.011e3ea3.jpg": "/myportfolio/static/media/reading.011e3ea3.jpg",
+    "static/media/toppict.adb81cc0.JPG": "/myportfolio/static/media/toppict.adb81cc0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbd447bc.js",
+    "static/js/2.928284db.chunk.js",
+    "static/css/main.c5f16c18.chunk.css",
+    "static/js/main.4a55dc85.chunk.js"
+  ]
+}
