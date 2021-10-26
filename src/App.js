@@ -18,7 +18,7 @@ function App (){
         <Router>
           <NavBar/>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/myportfolio">
               <Redirect to="/Home"/>
             </Route>
             <Route path='/Home' component={Home} />
